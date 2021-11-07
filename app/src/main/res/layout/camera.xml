@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round">
+
+    <Button
+        android:id="@+id/pictureSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnef4"
+        android:gravity="center"
+        android:text="保存图像"
+        android:textColor="#13277a"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/pictureIdentity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnef4"
+        android:gravity="center"
+        android:text="识别"
+        android:textColor="#13277a"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/pictureback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/pestDetection"
+        android:background="@drawable/btnef4"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#13277a"
+        android:textSize="20dp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round2"
+        android:text="跳转" />
+        <TextView
+            android:id="@+id/tvscreen1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="120dp"
+            android:gravity="top"
+            />
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pictureSave"
+        android:layout_marginTop="0dp" />
+
+
+</RelativeLayout>
+

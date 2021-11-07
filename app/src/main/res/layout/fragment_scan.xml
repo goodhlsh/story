@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EBFCE7"
+    android:layout_height="match_parent"
+    tools:context=".Scan_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round7"
+        >
+
+
+        <ImageView
+            android:id="@+id/jl"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jl" />
+
+        <TextView
+            android:id="@+id/sys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="扫一扫"
+            android:textSize="19sp"/>
+
+        <ImageView
+            android:id="@+id/scan1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/scan1"/>
+<!--            android:paddingLeft="300dp"-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/round7"
+        >
+
+
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ss" />
+
+        <TextView
+            android:id="@+id/wdjl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我的精灵"
+            android:textSize="19sp"/>
+
+        <ImageView
+            android:id="@+id/genie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/genie" />
+        <!--            android:paddingLeft="300dp"-->
+
+    </LinearLayout>
+</FrameLayout>

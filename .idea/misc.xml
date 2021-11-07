@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/work/story/app/src/main/res/layout/albums.xml" value="0.1" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_diy1.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_diy2.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_diy3.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_diy4.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_geniematch.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_img.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_mygenie.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_splash.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/activity_story.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/albums.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/camera.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/fragment_diy.xml" value="0.190625" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/fragment_forest.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/fragment_mine.xml" value="0.1" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/fragment_scan.xml" value="0.1" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/imageview.xml" value="0.1875" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/main2.xml" value="0.190625" />
+        <entry key="..\:/work/story/story (2)/app/src/main/res/layout/zone.xml" value="0.24481327800829875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

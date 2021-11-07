@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBFCE7"
+    tools:context=".Diy_Fragment">
+    <ImageView
+        android:id="@+id/topImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back2"
+        android:layout_gravity="top">
+
+    </ImageView>
+<!--    <LinearLayout-->
+<!--        android:layout_below="@+id/topImg"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:background="@drawable/round2"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingTop="10dp">-->
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="98dp"
+            android:layout_height="100dp"
+            android:background="@drawable/diy1"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/topImg"/>
+
+        <ImageView
+            android:id="@+id/ge1"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_alignBottom="@+id/btn1"
+             />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="97dp"
+            android:layout_height="100dp"
+            android:background="@drawable/diy2"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/ge1"
+            />
+
+        <ImageView
+            android:id="@+id/ge2"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/btn2"
+            android:layout_alignBottom="@+id/btn2"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="97dp"
+            android:layout_height="100dp"
+            android:background="@drawable/diy3"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/ge2"/>
+
+        <ImageView
+            android:id="@+id/ge3"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_alignBottom="@id/btn3"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="97dp"
+            android:layout_height="100dp"
+            android:background="@drawable/diy4"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/topImg"
+            android:layout_toRightOf="@+id/ge3"/>
+<!--    </LinearLayout>-->
+</RelativeLayout>

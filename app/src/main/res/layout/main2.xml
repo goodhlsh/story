@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2">
+
+    <fragment
+
+        android:id="@+id/fragment"
+        android:name="com.example.story.Mine_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/round2"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/scan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/scan10" />
+
+        <ImageView
+            android:id="@+id/diy"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            app:srcCompat="@drawable/diy0" />
+
+        <ImageView
+            android:id="@+id/forest"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            app:srcCompat="@drawable/forest0" />
+
+        <ImageView
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            app:srcCompat="@drawable/mine0" />
+        </LinearLayout>
+</RelativeLayout>

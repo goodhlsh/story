@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/scanFragment">
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.example.story.ScanFragment"
+        android:label="@string/scan_icon_title"
+        tools:layout="@layout/fragment_scan" />
+    <fragment
+        android:id="@+id/diyFragment"
+        android:name="com.example.story.DiyFragment"
+        android:label="@string/diy_icon_title"
+        tools:layout="@layout/fragment_diy" />
+    <fragment
+        android:id="@+id/starFragment"
+        android:name="com.example.story.StarFragment"
+        android:label="@string/star_icon_title"
+        tools:layout="@layout/fragment_forest" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.example.story.MineFragment"
+        android:label="@string/mine_icon_title"
+        tools:layout="@layout/fragment_mine" />
+</navigation>
